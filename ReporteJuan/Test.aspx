@@ -21,13 +21,15 @@
             <rsweb:ReportViewer ID="ReportViewer1" runat="server" Height="100%" Width="100%" SizeToReportContent="True"  BackColor="" AsyncRendering="false" ClientIDMode="AutoID" HighlightBackgroundColor="" InternalBorderColor="204, 204, 204" InternalBorderStyle="Solid" InternalBorderWidth="1px" LinkActiveColor="" LinkActiveHoverColor="" LinkDisabledColor="" PrimaryButtonBackgroundColor="" PrimaryButtonForegroundColor="" PrimaryButtonHoverBackgroundColor="" PrimaryButtonHoverForegroundColor="" SecondaryButtonBackgroundColor="" SecondaryButtonForegroundColor="" SecondaryButtonHoverBackgroundColor="" SecondaryButtonHoverForegroundColor="" SplitterBackColor="" ToolbarDividerColor="" ToolbarForegroundColor="" ToolbarForegroundDisabledColor="" ToolbarHoverBackgroundColor="" ToolbarHoverForegroundColor="" ToolBarItemBorderColor="" ToolBarItemBorderStyle="Solid" ToolBarItemBorderWidth="1px" ToolBarItemHoverBackColor="" ToolBarItemPressedBorderColor="51, 102, 153" ToolBarItemPressedBorderStyle="Solid" ToolBarItemPressedBorderWidth="1px" ToolBarItemPressedHoverBackColor="153, 187, 226">
                 <LocalReport ReportPath="ReporteJuan.rdlc">
                     <DataSources>
-                        <rsweb:ReportDataSource Name="DataSet1" DataSourceId="ObjectDataSource2"></rsweb:ReportDataSource>
+                        <rsweb:ReportDataSource Name="DETALLE" DataSourceId="ObjectDataSource1"></rsweb:ReportDataSource>
                     </DataSources>
                 </LocalReport>
             </rsweb:ReportViewer>
-            <asp:ObjectDataSource runat="server" SelectMethod="GetData" TypeName="ReporteJuan.LimoSystemsDataSetTableAdapters.REQUESTTableAdapter" ID="ObjectDataSource1"></asp:ObjectDataSource>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString='<%$ ConnectionStrings:LimoSystemsConnectionString %>' SelectCommand="SELECT [CUSTOMER_NAME], [CUSTOMER_LASTNAME], [CUSTOMER_PHONE_NUMBER], [REQUEST_DATE] FROM [REQUEST]"></asp:SqlDataSource>
-            <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" OldValuesParameterFormatString="original_{0}" SelectMethod="GetData" TypeName="ReporteJuan.LimoSystemsDataSetTableAdapters.REQUESTTableAdapter"></asp:ObjectDataSource>
+            <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" OldValuesParameterFormatString="original_{0}" SelectMethod="GetData" TypeName="ReporteJuan.LimoSystemsDataSetTableAdapters.REQUESTTableAdapter">
+                <SelectParameters>
+                    <asp:QueryStringParameter QueryStringField="id" DefaultValue="20" Name="id" Type="Int32"></asp:QueryStringParameter>
+                </SelectParameters>
+            </asp:ObjectDataSource>
         </div>
     </form>
 </body>

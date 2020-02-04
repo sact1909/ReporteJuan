@@ -279,6 +279,8 @@ namespace ReporteJuan {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class REQUESTDataTable : global::System.Data.TypedTableBase<REQUESTRow> {
             
+            private global::System.Data.DataColumn columnID;
+            
             private global::System.Data.DataColumn columnCUSTOMER_NAME;
             
             private global::System.Data.DataColumn columnCUSTOMER_LASTNAME;
@@ -286,6 +288,34 @@ namespace ReporteJuan {
             private global::System.Data.DataColumn columnCUSTOMER_PHONE_NUMBER;
             
             private global::System.Data.DataColumn columnREQUEST_DATE;
+            
+            private global::System.Data.DataColumn columnPICKUP_ADDRESS;
+            
+            private global::System.Data.DataColumn columnDROPOFF_ADDRESS;
+            
+            private global::System.Data.DataColumn columnREQUEST_TYPE;
+            
+            private global::System.Data.DataColumn columnPASSENGERS_NUMBER;
+            
+            private global::System.Data.DataColumn columnLUGGAGE_NUMBER;
+            
+            private global::System.Data.DataColumn columnSTATUS;
+            
+            private global::System.Data.DataColumn columnSTATUS_DRIVER;
+            
+            private global::System.Data.DataColumn columnBOOKER_ID;
+            
+            private global::System.Data.DataColumn columnADMIN_ID;
+            
+            private global::System.Data.DataColumn columnALTER_REF_NUM;
+            
+            private global::System.Data.DataColumn columnHANDICAP;
+            
+            private global::System.Data.DataColumn columnREGISTER_DATE;
+            
+            private global::System.Data.DataColumn columnCAR_TYPE;
+            
+            private global::System.Data.DataColumn columnCOMENTS;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
@@ -322,6 +352,14 @@ namespace ReporteJuan {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn IDColumn {
+                get {
+                    return this.columnID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public global::System.Data.DataColumn CUSTOMER_NAMEColumn {
                 get {
                     return this.columnCUSTOMER_NAME;
@@ -349,6 +387,118 @@ namespace ReporteJuan {
             public global::System.Data.DataColumn REQUEST_DATEColumn {
                 get {
                     return this.columnREQUEST_DATE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn PICKUP_ADDRESSColumn {
+                get {
+                    return this.columnPICKUP_ADDRESS;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn DROPOFF_ADDRESSColumn {
+                get {
+                    return this.columnDROPOFF_ADDRESS;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn REQUEST_TYPEColumn {
+                get {
+                    return this.columnREQUEST_TYPE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn PASSENGERS_NUMBERColumn {
+                get {
+                    return this.columnPASSENGERS_NUMBER;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn LUGGAGE_NUMBERColumn {
+                get {
+                    return this.columnLUGGAGE_NUMBER;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn STATUSColumn {
+                get {
+                    return this.columnSTATUS;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn STATUS_DRIVERColumn {
+                get {
+                    return this.columnSTATUS_DRIVER;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn BOOKER_IDColumn {
+                get {
+                    return this.columnBOOKER_ID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn ADMIN_IDColumn {
+                get {
+                    return this.columnADMIN_ID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn ALTER_REF_NUMColumn {
+                get {
+                    return this.columnALTER_REF_NUM;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn HANDICAPColumn {
+                get {
+                    return this.columnHANDICAP;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn REGISTER_DATEColumn {
+                get {
+                    return this.columnREGISTER_DATE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn CAR_TYPEColumn {
+                get {
+                    return this.columnCAR_TYPE;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn COMENTSColumn {
+                get {
+                    return this.columnCOMENTS;
                 }
             }
             
@@ -389,16 +539,56 @@ namespace ReporteJuan {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public REQUESTRow AddREQUESTRow(string CUSTOMER_NAME, string CUSTOMER_LASTNAME, string CUSTOMER_PHONE_NUMBER, System.DateTime REQUEST_DATE) {
+            public REQUESTRow AddREQUESTRow(
+                        string CUSTOMER_NAME, 
+                        string CUSTOMER_LASTNAME, 
+                        string CUSTOMER_PHONE_NUMBER, 
+                        System.DateTime REQUEST_DATE, 
+                        string PICKUP_ADDRESS, 
+                        string DROPOFF_ADDRESS, 
+                        string REQUEST_TYPE, 
+                        int PASSENGERS_NUMBER, 
+                        int LUGGAGE_NUMBER, 
+                        int STATUS, 
+                        string STATUS_DRIVER, 
+                        int BOOKER_ID, 
+                        int ADMIN_ID, 
+                        string ALTER_REF_NUM, 
+                        bool HANDICAP, 
+                        System.DateTime REGISTER_DATE, 
+                        string CAR_TYPE, 
+                        string COMENTS) {
                 REQUESTRow rowREQUESTRow = ((REQUESTRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
+                        null,
                         CUSTOMER_NAME,
                         CUSTOMER_LASTNAME,
                         CUSTOMER_PHONE_NUMBER,
-                        REQUEST_DATE};
+                        REQUEST_DATE,
+                        PICKUP_ADDRESS,
+                        DROPOFF_ADDRESS,
+                        REQUEST_TYPE,
+                        PASSENGERS_NUMBER,
+                        LUGGAGE_NUMBER,
+                        STATUS,
+                        STATUS_DRIVER,
+                        BOOKER_ID,
+                        ADMIN_ID,
+                        ALTER_REF_NUM,
+                        HANDICAP,
+                        REGISTER_DATE,
+                        CAR_TYPE,
+                        COMENTS};
                 rowREQUESTRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowREQUESTRow);
                 return rowREQUESTRow;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public REQUESTRow FindByID(int ID) {
+                return ((REQUESTRow)(this.Rows.Find(new object[] {
+                            ID})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -418,15 +608,32 @@ namespace ReporteJuan {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
+                this.columnID = base.Columns["ID"];
                 this.columnCUSTOMER_NAME = base.Columns["CUSTOMER_NAME"];
                 this.columnCUSTOMER_LASTNAME = base.Columns["CUSTOMER_LASTNAME"];
                 this.columnCUSTOMER_PHONE_NUMBER = base.Columns["CUSTOMER_PHONE_NUMBER"];
                 this.columnREQUEST_DATE = base.Columns["REQUEST_DATE"];
+                this.columnPICKUP_ADDRESS = base.Columns["PICKUP_ADDRESS"];
+                this.columnDROPOFF_ADDRESS = base.Columns["DROPOFF_ADDRESS"];
+                this.columnREQUEST_TYPE = base.Columns["REQUEST_TYPE"];
+                this.columnPASSENGERS_NUMBER = base.Columns["PASSENGERS_NUMBER"];
+                this.columnLUGGAGE_NUMBER = base.Columns["LUGGAGE_NUMBER"];
+                this.columnSTATUS = base.Columns["STATUS"];
+                this.columnSTATUS_DRIVER = base.Columns["STATUS_DRIVER"];
+                this.columnBOOKER_ID = base.Columns["BOOKER_ID"];
+                this.columnADMIN_ID = base.Columns["ADMIN_ID"];
+                this.columnALTER_REF_NUM = base.Columns["ALTER_REF_NUM"];
+                this.columnHANDICAP = base.Columns["HANDICAP"];
+                this.columnREGISTER_DATE = base.Columns["REGISTER_DATE"];
+                this.columnCAR_TYPE = base.Columns["CAR_TYPE"];
+                this.columnCOMENTS = base.Columns["COMENTS"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
+                this.columnID = new global::System.Data.DataColumn("ID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnID);
                 this.columnCUSTOMER_NAME = new global::System.Data.DataColumn("CUSTOMER_NAME", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCUSTOMER_NAME);
                 this.columnCUSTOMER_LASTNAME = new global::System.Data.DataColumn("CUSTOMER_LASTNAME", typeof(string), null, global::System.Data.MappingType.Element);
@@ -435,6 +642,42 @@ namespace ReporteJuan {
                 base.Columns.Add(this.columnCUSTOMER_PHONE_NUMBER);
                 this.columnREQUEST_DATE = new global::System.Data.DataColumn("REQUEST_DATE", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnREQUEST_DATE);
+                this.columnPICKUP_ADDRESS = new global::System.Data.DataColumn("PICKUP_ADDRESS", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPICKUP_ADDRESS);
+                this.columnDROPOFF_ADDRESS = new global::System.Data.DataColumn("DROPOFF_ADDRESS", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnDROPOFF_ADDRESS);
+                this.columnREQUEST_TYPE = new global::System.Data.DataColumn("REQUEST_TYPE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnREQUEST_TYPE);
+                this.columnPASSENGERS_NUMBER = new global::System.Data.DataColumn("PASSENGERS_NUMBER", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPASSENGERS_NUMBER);
+                this.columnLUGGAGE_NUMBER = new global::System.Data.DataColumn("LUGGAGE_NUMBER", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnLUGGAGE_NUMBER);
+                this.columnSTATUS = new global::System.Data.DataColumn("STATUS", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSTATUS);
+                this.columnSTATUS_DRIVER = new global::System.Data.DataColumn("STATUS_DRIVER", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSTATUS_DRIVER);
+                this.columnBOOKER_ID = new global::System.Data.DataColumn("BOOKER_ID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnBOOKER_ID);
+                this.columnADMIN_ID = new global::System.Data.DataColumn("ADMIN_ID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnADMIN_ID);
+                this.columnALTER_REF_NUM = new global::System.Data.DataColumn("ALTER_REF_NUM", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnALTER_REF_NUM);
+                this.columnHANDICAP = new global::System.Data.DataColumn("HANDICAP", typeof(bool), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHANDICAP);
+                this.columnREGISTER_DATE = new global::System.Data.DataColumn("REGISTER_DATE", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnREGISTER_DATE);
+                this.columnCAR_TYPE = new global::System.Data.DataColumn("CAR_TYPE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCAR_TYPE);
+                this.columnCOMENTS = new global::System.Data.DataColumn("COMENTS", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCOMENTS);
+                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
+                                this.columnID}, true));
+                this.columnID.AutoIncrement = true;
+                this.columnID.AutoIncrementSeed = -1;
+                this.columnID.AutoIncrementStep = -1;
+                this.columnID.AllowDBNull = false;
+                this.columnID.ReadOnly = true;
+                this.columnID.Unique = true;
                 this.columnCUSTOMER_NAME.AllowDBNull = false;
                 this.columnCUSTOMER_NAME.MaxLength = 50;
                 this.columnCUSTOMER_LASTNAME.AllowDBNull = false;
@@ -442,6 +685,21 @@ namespace ReporteJuan {
                 this.columnCUSTOMER_PHONE_NUMBER.AllowDBNull = false;
                 this.columnCUSTOMER_PHONE_NUMBER.MaxLength = 50;
                 this.columnREQUEST_DATE.AllowDBNull = false;
+                this.columnPICKUP_ADDRESS.AllowDBNull = false;
+                this.columnPICKUP_ADDRESS.MaxLength = 250;
+                this.columnDROPOFF_ADDRESS.AllowDBNull = false;
+                this.columnDROPOFF_ADDRESS.MaxLength = 250;
+                this.columnREQUEST_TYPE.AllowDBNull = false;
+                this.columnREQUEST_TYPE.MaxLength = 50;
+                this.columnPASSENGERS_NUMBER.AllowDBNull = false;
+                this.columnLUGGAGE_NUMBER.AllowDBNull = false;
+                this.columnSTATUS.AllowDBNull = false;
+                this.columnSTATUS_DRIVER.MaxLength = 150;
+                this.columnBOOKER_ID.AllowDBNull = false;
+                this.columnADMIN_ID.AllowDBNull = false;
+                this.columnALTER_REF_NUM.MaxLength = 250;
+                this.columnCAR_TYPE.MaxLength = 250;
+                this.columnCOMENTS.MaxLength = 250;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -584,6 +842,17 @@ namespace ReporteJuan {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int ID {
+                get {
+                    return ((int)(this[this.tableREQUEST.IDColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.IDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public string CUSTOMER_NAME {
                 get {
                     return ((string)(this[this.tableREQUEST.CUSTOMER_NAMEColumn]));
@@ -624,6 +893,262 @@ namespace ReporteJuan {
                 set {
                     this[this.tableREQUEST.REQUEST_DATEColumn] = value;
                 }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string PICKUP_ADDRESS {
+                get {
+                    return ((string)(this[this.tableREQUEST.PICKUP_ADDRESSColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.PICKUP_ADDRESSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string DROPOFF_ADDRESS {
+                get {
+                    return ((string)(this[this.tableREQUEST.DROPOFF_ADDRESSColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.DROPOFF_ADDRESSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string REQUEST_TYPE {
+                get {
+                    return ((string)(this[this.tableREQUEST.REQUEST_TYPEColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.REQUEST_TYPEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int PASSENGERS_NUMBER {
+                get {
+                    return ((int)(this[this.tableREQUEST.PASSENGERS_NUMBERColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.PASSENGERS_NUMBERColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int LUGGAGE_NUMBER {
+                get {
+                    return ((int)(this[this.tableREQUEST.LUGGAGE_NUMBERColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.LUGGAGE_NUMBERColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int STATUS {
+                get {
+                    return ((int)(this[this.tableREQUEST.STATUSColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.STATUSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string STATUS_DRIVER {
+                get {
+                    try {
+                        return ((string)(this[this.tableREQUEST.STATUS_DRIVERColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'STATUS_DRIVER\' in table \'REQUEST\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableREQUEST.STATUS_DRIVERColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int BOOKER_ID {
+                get {
+                    return ((int)(this[this.tableREQUEST.BOOKER_IDColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.BOOKER_IDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int ADMIN_ID {
+                get {
+                    return ((int)(this[this.tableREQUEST.ADMIN_IDColumn]));
+                }
+                set {
+                    this[this.tableREQUEST.ADMIN_IDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string ALTER_REF_NUM {
+                get {
+                    try {
+                        return ((string)(this[this.tableREQUEST.ALTER_REF_NUMColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ALTER_REF_NUM\' in table \'REQUEST\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableREQUEST.ALTER_REF_NUMColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool HANDICAP {
+                get {
+                    try {
+                        return ((bool)(this[this.tableREQUEST.HANDICAPColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'HANDICAP\' in table \'REQUEST\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableREQUEST.HANDICAPColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public System.DateTime REGISTER_DATE {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tableREQUEST.REGISTER_DATEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'REGISTER_DATE\' in table \'REQUEST\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableREQUEST.REGISTER_DATEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string CAR_TYPE {
+                get {
+                    try {
+                        return ((string)(this[this.tableREQUEST.CAR_TYPEColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CAR_TYPE\' in table \'REQUEST\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableREQUEST.CAR_TYPEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string COMENTS {
+                get {
+                    try {
+                        return ((string)(this[this.tableREQUEST.COMENTSColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'COMENTS\' in table \'REQUEST\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableREQUEST.COMENTSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsSTATUS_DRIVERNull() {
+                return this.IsNull(this.tableREQUEST.STATUS_DRIVERColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetSTATUS_DRIVERNull() {
+                this[this.tableREQUEST.STATUS_DRIVERColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsALTER_REF_NUMNull() {
+                return this.IsNull(this.tableREQUEST.ALTER_REF_NUMColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetALTER_REF_NUMNull() {
+                this[this.tableREQUEST.ALTER_REF_NUMColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsHANDICAPNull() {
+                return this.IsNull(this.tableREQUEST.HANDICAPColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetHANDICAPNull() {
+                this[this.tableREQUEST.HANDICAPColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsREGISTER_DATENull() {
+                return this.IsNull(this.tableREQUEST.REGISTER_DATEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetREGISTER_DATENull() {
+                this[this.tableREQUEST.REGISTER_DATEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsCAR_TYPENull() {
+                return this.IsNull(this.tableREQUEST.CAR_TYPEColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetCAR_TYPENull() {
+                this[this.tableREQUEST.CAR_TYPEColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsCOMENTSNull() {
+                return this.IsNull(this.tableREQUEST.COMENTSColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetCOMENTSNull() {
+                this[this.tableREQUEST.COMENTSColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -786,11 +1311,76 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "REQUEST";
+            tableMapping.ColumnMappings.Add("ID", "ID");
             tableMapping.ColumnMappings.Add("CUSTOMER_NAME", "CUSTOMER_NAME");
             tableMapping.ColumnMappings.Add("CUSTOMER_LASTNAME", "CUSTOMER_LASTNAME");
             tableMapping.ColumnMappings.Add("CUSTOMER_PHONE_NUMBER", "CUSTOMER_PHONE_NUMBER");
             tableMapping.ColumnMappings.Add("REQUEST_DATE", "REQUEST_DATE");
+            tableMapping.ColumnMappings.Add("PICKUP_ADDRESS", "PICKUP_ADDRESS");
+            tableMapping.ColumnMappings.Add("DROPOFF_ADDRESS", "DROPOFF_ADDRESS");
+            tableMapping.ColumnMappings.Add("REQUEST_TYPE", "REQUEST_TYPE");
+            tableMapping.ColumnMappings.Add("PASSENGERS_NUMBER", "PASSENGERS_NUMBER");
+            tableMapping.ColumnMappings.Add("LUGGAGE_NUMBER", "LUGGAGE_NUMBER");
+            tableMapping.ColumnMappings.Add("STATUS", "STATUS");
+            tableMapping.ColumnMappings.Add("STATUS_DRIVER", "STATUS_DRIVER");
+            tableMapping.ColumnMappings.Add("BOOKER_ID", "BOOKER_ID");
+            tableMapping.ColumnMappings.Add("ADMIN_ID", "ADMIN_ID");
+            tableMapping.ColumnMappings.Add("ALTER_REF_NUM", "ALTER_REF_NUM");
+            tableMapping.ColumnMappings.Add("HANDICAP", "HANDICAP");
+            tableMapping.ColumnMappings.Add("REGISTER_DATE", "REGISTER_DATE");
+            tableMapping.ColumnMappings.Add("CAR_TYPE", "CAR_TYPE");
+            tableMapping.ColumnMappings.Add("COMENTS", "COMENTS");
             this._adapter.TableMappings.Add(tableMapping);
+            this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
+            this._adapter.DeleteCommand.Connection = this.Connection;
+            this._adapter.DeleteCommand.CommandText = "DELETE FROM [REQUEST] WHERE (([ID] = @Original_ID))";
+            this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
+            this._adapter.InsertCommand.Connection = this.Connection;
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [REQUEST] ([CUSTOMER_NAME], [CUSTOMER_LASTNAME], [CUSTOMER_PHONE_NUMBER], [REQUEST_DATE], [PICKUP_ADDRESS], [DROPOFF_ADDRESS], [REQUEST_TYPE], [PASSENGERS_NUMBER], [LUGGAGE_NUMBER], [STATUS], [STATUS_DRIVER], [BOOKER_ID], [ADMIN_ID], [ALTER_REF_NUM], [HANDICAP], [REGISTER_DATE], [CAR_TYPE], [COMENTS]) VALUES (@CUSTOMER_NAME, @CUSTOMER_LASTNAME, @CUSTOMER_PHONE_NUMBER, @REQUEST_DATE, @PICKUP_ADDRESS, @DROPOFF_ADDRESS, @REQUEST_TYPE, @PASSENGERS_NUMBER, @LUGGAGE_NUMBER, @STATUS, @STATUS_DRIVER, @BOOKER_ID, @ADMIN_ID, @ALTER_REF_NUM, @HANDICAP, @REGISTER_DATE, @CAR_TYPE, @COMENTS)";
+            this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CUSTOMER_NAME", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CUSTOMER_NAME", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CUSTOMER_LASTNAME", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CUSTOMER_LASTNAME", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CUSTOMER_PHONE_NUMBER", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CUSTOMER_PHONE_NUMBER", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@REQUEST_DATE", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "REQUEST_DATE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PICKUP_ADDRESS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PICKUP_ADDRESS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DROPOFF_ADDRESS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DROPOFF_ADDRESS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@REQUEST_TYPE", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "REQUEST_TYPE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PASSENGERS_NUMBER", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PASSENGERS_NUMBER", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LUGGAGE_NUMBER", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "LUGGAGE_NUMBER", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@STATUS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@STATUS_DRIVER", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS_DRIVER", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BOOKER_ID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BOOKER_ID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ADMIN_ID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ADMIN_ID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ALTER_REF_NUM", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ALTER_REF_NUM", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@HANDICAP", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "HANDICAP", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@REGISTER_DATE", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "REGISTER_DATE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CAR_TYPE", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CAR_TYPE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@COMENTS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "COMENTS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
+            this._adapter.UpdateCommand.Connection = this.Connection;
+            this._adapter.UpdateCommand.CommandText = @"UPDATE [REQUEST] SET [CUSTOMER_NAME] = @CUSTOMER_NAME, [CUSTOMER_LASTNAME] = @CUSTOMER_LASTNAME, [CUSTOMER_PHONE_NUMBER] = @CUSTOMER_PHONE_NUMBER, [REQUEST_DATE] = @REQUEST_DATE, [PICKUP_ADDRESS] = @PICKUP_ADDRESS, [DROPOFF_ADDRESS] = @DROPOFF_ADDRESS, [REQUEST_TYPE] = @REQUEST_TYPE, [PASSENGERS_NUMBER] = @PASSENGERS_NUMBER, [LUGGAGE_NUMBER] = @LUGGAGE_NUMBER, [STATUS] = @STATUS, [STATUS_DRIVER] = @STATUS_DRIVER, [BOOKER_ID] = @BOOKER_ID, [ADMIN_ID] = @ADMIN_ID, [ALTER_REF_NUM] = @ALTER_REF_NUM, [HANDICAP] = @HANDICAP, [REGISTER_DATE] = @REGISTER_DATE, [CAR_TYPE] = @CAR_TYPE, [COMENTS] = @COMENTS WHERE (([ID] = @Original_ID))";
+            this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CUSTOMER_NAME", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CUSTOMER_NAME", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CUSTOMER_LASTNAME", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CUSTOMER_LASTNAME", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CUSTOMER_PHONE_NUMBER", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CUSTOMER_PHONE_NUMBER", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@REQUEST_DATE", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "REQUEST_DATE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PICKUP_ADDRESS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PICKUP_ADDRESS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DROPOFF_ADDRESS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DROPOFF_ADDRESS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@REQUEST_TYPE", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "REQUEST_TYPE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PASSENGERS_NUMBER", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PASSENGERS_NUMBER", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LUGGAGE_NUMBER", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "LUGGAGE_NUMBER", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@STATUS", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@STATUS_DRIVER", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "STATUS_DRIVER", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BOOKER_ID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BOOKER_ID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ADMIN_ID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ADMIN_ID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ALTER_REF_NUM", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ALTER_REF_NUM", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@HANDICAP", global::System.Data.SqlDbType.Bit, 0, global::System.Data.ParameterDirection.Input, 0, 0, "HANDICAP", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@REGISTER_DATE", global::System.Data.SqlDbType.DateTime, 0, global::System.Data.ParameterDirection.Input, 0, 0, "REGISTER_DATE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CAR_TYPE", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CAR_TYPE", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@COMENTS", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "COMENTS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_ID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -806,17 +1396,37 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT CUSTOMER_NAME, CUSTOMER_LASTNAME, CUSTOMER_PHONE_NUMBER, REQUEST_DATE FROM" +
-                " dbo.REQUEST";
+            this._commandCollection[0].CommandText = @"SELECT  [ID]
+      ,[CUSTOMER_NAME]
+      ,[CUSTOMER_LASTNAME]
+      ,[CUSTOMER_PHONE_NUMBER]
+      ,[REQUEST_DATE]
+      ,[PICKUP_ADDRESS]
+      ,[DROPOFF_ADDRESS]
+      ,[REQUEST_TYPE]
+      ,[PASSENGERS_NUMBER]
+      ,[LUGGAGE_NUMBER]
+      ,[STATUS]
+      ,[STATUS_DRIVER]
+      ,[BOOKER_ID]
+      ,[ADMIN_ID]
+      ,[ALTER_REF_NUM]
+      ,[HANDICAP]
+      ,[REGISTER_DATE]
+      ,[CAR_TYPE]
+      ,[COMENTS]
+  FROM [REQUEST] WHERE [ID] = @ID";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "ID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(LimoSystemsDataSet.REQUESTDataTable dataTable) {
+        public virtual int Fill(LimoSystemsDataSet.REQUESTDataTable dataTable, int ID) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(ID));
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
             }
@@ -828,11 +1438,299 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual LimoSystemsDataSet.REQUESTDataTable GetData() {
+        public virtual LimoSystemsDataSet.REQUESTDataTable GetData(int ID) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(ID));
             LimoSystemsDataSet.REQUESTDataTable dataTable = new LimoSystemsDataSet.REQUESTDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(LimoSystemsDataSet.REQUESTDataTable dataTable) {
+            return this.Adapter.Update(dataTable);
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(LimoSystemsDataSet dataSet) {
+            return this.Adapter.Update(dataSet, "REQUEST");
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(global::System.Data.DataRow dataRow) {
+            return this.Adapter.Update(new global::System.Data.DataRow[] {
+                        dataRow});
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(global::System.Data.DataRow[] dataRows) {
+            return this.Adapter.Update(dataRows);
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
+        public virtual int Delete(int Original_ID) {
+            this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_ID));
+            global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
+            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                this.Adapter.DeleteCommand.Connection.Open();
+            }
+            try {
+                int returnValue = this.Adapter.DeleteCommand.ExecuteNonQuery();
+                return returnValue;
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    this.Adapter.DeleteCommand.Connection.Close();
+                }
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
+        public virtual int Insert(
+                    string CUSTOMER_NAME, 
+                    string CUSTOMER_LASTNAME, 
+                    string CUSTOMER_PHONE_NUMBER, 
+                    System.DateTime REQUEST_DATE, 
+                    string PICKUP_ADDRESS, 
+                    string DROPOFF_ADDRESS, 
+                    string REQUEST_TYPE, 
+                    int PASSENGERS_NUMBER, 
+                    int LUGGAGE_NUMBER, 
+                    int STATUS, 
+                    string STATUS_DRIVER, 
+                    int BOOKER_ID, 
+                    int ADMIN_ID, 
+                    string ALTER_REF_NUM, 
+                    global::System.Nullable<bool> HANDICAP, 
+                    global::System.Nullable<global::System.DateTime> REGISTER_DATE, 
+                    string CAR_TYPE, 
+                    string COMENTS) {
+            if ((CUSTOMER_NAME == null)) {
+                throw new global::System.ArgumentNullException("CUSTOMER_NAME");
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(CUSTOMER_NAME));
+            }
+            if ((CUSTOMER_LASTNAME == null)) {
+                throw new global::System.ArgumentNullException("CUSTOMER_LASTNAME");
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(CUSTOMER_LASTNAME));
+            }
+            if ((CUSTOMER_PHONE_NUMBER == null)) {
+                throw new global::System.ArgumentNullException("CUSTOMER_PHONE_NUMBER");
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[2].Value = ((string)(CUSTOMER_PHONE_NUMBER));
+            }
+            this.Adapter.InsertCommand.Parameters[3].Value = ((System.DateTime)(REQUEST_DATE));
+            if ((PICKUP_ADDRESS == null)) {
+                throw new global::System.ArgumentNullException("PICKUP_ADDRESS");
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[4].Value = ((string)(PICKUP_ADDRESS));
+            }
+            if ((DROPOFF_ADDRESS == null)) {
+                throw new global::System.ArgumentNullException("DROPOFF_ADDRESS");
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[5].Value = ((string)(DROPOFF_ADDRESS));
+            }
+            if ((REQUEST_TYPE == null)) {
+                throw new global::System.ArgumentNullException("REQUEST_TYPE");
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[6].Value = ((string)(REQUEST_TYPE));
+            }
+            this.Adapter.InsertCommand.Parameters[7].Value = ((int)(PASSENGERS_NUMBER));
+            this.Adapter.InsertCommand.Parameters[8].Value = ((int)(LUGGAGE_NUMBER));
+            this.Adapter.InsertCommand.Parameters[9].Value = ((int)(STATUS));
+            if ((STATUS_DRIVER == null)) {
+                this.Adapter.InsertCommand.Parameters[10].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[10].Value = ((string)(STATUS_DRIVER));
+            }
+            this.Adapter.InsertCommand.Parameters[11].Value = ((int)(BOOKER_ID));
+            this.Adapter.InsertCommand.Parameters[12].Value = ((int)(ADMIN_ID));
+            if ((ALTER_REF_NUM == null)) {
+                this.Adapter.InsertCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[13].Value = ((string)(ALTER_REF_NUM));
+            }
+            if ((HANDICAP.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[14].Value = ((bool)(HANDICAP.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
+            if ((REGISTER_DATE.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[15].Value = ((System.DateTime)(REGISTER_DATE.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            if ((CAR_TYPE == null)) {
+                this.Adapter.InsertCommand.Parameters[16].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[16].Value = ((string)(CAR_TYPE));
+            }
+            if ((COMENTS == null)) {
+                this.Adapter.InsertCommand.Parameters[17].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[17].Value = ((string)(COMENTS));
+            }
+            global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                this.Adapter.InsertCommand.Connection.Open();
+            }
+            try {
+                int returnValue = this.Adapter.InsertCommand.ExecuteNonQuery();
+                return returnValue;
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    this.Adapter.InsertCommand.Connection.Close();
+                }
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
+        public virtual int Update(
+                    string CUSTOMER_NAME, 
+                    string CUSTOMER_LASTNAME, 
+                    string CUSTOMER_PHONE_NUMBER, 
+                    System.DateTime REQUEST_DATE, 
+                    string PICKUP_ADDRESS, 
+                    string DROPOFF_ADDRESS, 
+                    string REQUEST_TYPE, 
+                    int PASSENGERS_NUMBER, 
+                    int LUGGAGE_NUMBER, 
+                    int STATUS, 
+                    string STATUS_DRIVER, 
+                    int BOOKER_ID, 
+                    int ADMIN_ID, 
+                    string ALTER_REF_NUM, 
+                    global::System.Nullable<bool> HANDICAP, 
+                    global::System.Nullable<global::System.DateTime> REGISTER_DATE, 
+                    string CAR_TYPE, 
+                    string COMENTS, 
+                    int Original_ID) {
+            if ((CUSTOMER_NAME == null)) {
+                throw new global::System.ArgumentNullException("CUSTOMER_NAME");
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(CUSTOMER_NAME));
+            }
+            if ((CUSTOMER_LASTNAME == null)) {
+                throw new global::System.ArgumentNullException("CUSTOMER_LASTNAME");
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[1].Value = ((string)(CUSTOMER_LASTNAME));
+            }
+            if ((CUSTOMER_PHONE_NUMBER == null)) {
+                throw new global::System.ArgumentNullException("CUSTOMER_PHONE_NUMBER");
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[2].Value = ((string)(CUSTOMER_PHONE_NUMBER));
+            }
+            this.Adapter.UpdateCommand.Parameters[3].Value = ((System.DateTime)(REQUEST_DATE));
+            if ((PICKUP_ADDRESS == null)) {
+                throw new global::System.ArgumentNullException("PICKUP_ADDRESS");
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(PICKUP_ADDRESS));
+            }
+            if ((DROPOFF_ADDRESS == null)) {
+                throw new global::System.ArgumentNullException("DROPOFF_ADDRESS");
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[5].Value = ((string)(DROPOFF_ADDRESS));
+            }
+            if ((REQUEST_TYPE == null)) {
+                throw new global::System.ArgumentNullException("REQUEST_TYPE");
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(REQUEST_TYPE));
+            }
+            this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(PASSENGERS_NUMBER));
+            this.Adapter.UpdateCommand.Parameters[8].Value = ((int)(LUGGAGE_NUMBER));
+            this.Adapter.UpdateCommand.Parameters[9].Value = ((int)(STATUS));
+            if ((STATUS_DRIVER == null)) {
+                this.Adapter.UpdateCommand.Parameters[10].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((string)(STATUS_DRIVER));
+            }
+            this.Adapter.UpdateCommand.Parameters[11].Value = ((int)(BOOKER_ID));
+            this.Adapter.UpdateCommand.Parameters[12].Value = ((int)(ADMIN_ID));
+            if ((ALTER_REF_NUM == null)) {
+                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((string)(ALTER_REF_NUM));
+            }
+            if ((HANDICAP.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((bool)(HANDICAP.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
+            if ((REGISTER_DATE.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[15].Value = ((System.DateTime)(REGISTER_DATE.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            if ((CAR_TYPE == null)) {
+                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[16].Value = ((string)(CAR_TYPE));
+            }
+            if ((COMENTS == null)) {
+                this.Adapter.UpdateCommand.Parameters[17].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[17].Value = ((string)(COMENTS));
+            }
+            this.Adapter.UpdateCommand.Parameters[18].Value = ((int)(Original_ID));
+            global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
+            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                this.Adapter.UpdateCommand.Connection.Open();
+            }
+            try {
+                int returnValue = this.Adapter.UpdateCommand.ExecuteNonQuery();
+                return returnValue;
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    this.Adapter.UpdateCommand.Connection.Close();
+                }
+            }
         }
     }
     
@@ -848,6 +1746,8 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
         
         private UpdateOrderOption _updateOrder;
         
+        private REQUESTTableAdapter _rEQUESTTableAdapter;
+        
         private bool _backupDataSetBeforeUpdate;
         
         private global::System.Data.IDbConnection _connection;
@@ -860,6 +1760,20 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
             }
             set {
                 this._updateOrder = value;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
+            "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
+            "a", "System.Drawing.Design.UITypeEditor")]
+        public REQUESTTableAdapter REQUESTTableAdapter {
+            get {
+                return this._rEQUESTTableAdapter;
+            }
+            set {
+                this._rEQUESTTableAdapter = value;
             }
         }
         
@@ -882,6 +1796,10 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
                 if ((this._connection != null)) {
                     return this._connection;
                 }
+                if (((this._rEQUESTTableAdapter != null) 
+                            && (this._rEQUESTTableAdapter.Connection != null))) {
+                    return this._rEQUESTTableAdapter.Connection;
+                }
                 return null;
             }
             set {
@@ -895,6 +1813,9 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
         public int TableAdapterInstanceCount {
             get {
                 int count = 0;
+                if ((this._rEQUESTTableAdapter != null)) {
+                    count = (count + 1);
+                }
                 return count;
             }
         }
@@ -906,6 +1827,15 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private int UpdateUpdatedRows(LimoSystemsDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
+            if ((this._rEQUESTTableAdapter != null)) {
+                global::System.Data.DataRow[] updatedRows = dataSet.REQUEST.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
+                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
+                if (((updatedRows != null) 
+                            && (0 < updatedRows.Length))) {
+                    result = (result + this._rEQUESTTableAdapter.Update(updatedRows));
+                    allChangedRows.AddRange(updatedRows);
+                }
+            }
             return result;
         }
         
@@ -916,6 +1846,14 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private int UpdateInsertedRows(LimoSystemsDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
+            if ((this._rEQUESTTableAdapter != null)) {
+                global::System.Data.DataRow[] addedRows = dataSet.REQUEST.Select(null, null, global::System.Data.DataViewRowState.Added);
+                if (((addedRows != null) 
+                            && (0 < addedRows.Length))) {
+                    result = (result + this._rEQUESTTableAdapter.Update(addedRows));
+                    allAddedRows.AddRange(addedRows);
+                }
+            }
             return result;
         }
         
@@ -926,6 +1864,14 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private int UpdateDeletedRows(LimoSystemsDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
+            if ((this._rEQUESTTableAdapter != null)) {
+                global::System.Data.DataRow[] deletedRows = dataSet.REQUEST.Select(null, null, global::System.Data.DataViewRowState.Deleted);
+                if (((deletedRows != null) 
+                            && (0 < deletedRows.Length))) {
+                    result = (result + this._rEQUESTTableAdapter.Update(deletedRows));
+                    allChangedRows.AddRange(deletedRows);
+                }
+            }
             return result;
         }
         
@@ -965,6 +1911,11 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
             if ((dataSet.HasChanges() == false)) {
                 return 0;
             }
+            if (((this._rEQUESTTableAdapter != null) 
+                        && (this.MatchTableAdapterConnection(this._rEQUESTTableAdapter.Connection) == false))) {
+                throw new global::System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s" +
+                        "tring.");
+            }
             global::System.Data.IDbConnection workConnection = this.Connection;
             if ((workConnection == null)) {
                 throw new global::System.ApplicationException("TableAdapterManager contains no connection information. Set each TableAdapterMana" +
@@ -997,6 +1948,15 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
             try {
                 // ---- Prepare for update -----------
                 //
+                if ((this._rEQUESTTableAdapter != null)) {
+                    revertConnections.Add(this._rEQUESTTableAdapter, this._rEQUESTTableAdapter.Connection);
+                    this._rEQUESTTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
+                    this._rEQUESTTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
+                    if (this._rEQUESTTableAdapter.Adapter.AcceptChangesDuringUpdate) {
+                        this._rEQUESTTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
+                        adaptersWithAcceptChangesDuringUpdate.Add(this._rEQUESTTableAdapter.Adapter);
+                    }
+                }
                 // 
                 //---- Perform updates -----------
                 //
@@ -1054,6 +2014,10 @@ namespace ReporteJuan.LimoSystemsDataSetTableAdapters {
             finally {
                 if (workConnOpened) {
                     workConnection.Close();
+                }
+                if ((this._rEQUESTTableAdapter != null)) {
+                    this._rEQUESTTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._rEQUESTTableAdapter]));
+                    this._rEQUESTTableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];

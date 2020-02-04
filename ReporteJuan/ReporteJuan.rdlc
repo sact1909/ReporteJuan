@@ -225,7 +225,7 @@
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
-        <DataSetName>DataSet1</DataSetName>
+        <DataSetName>DETALLE</DataSetName>
         <Top>1.06125in</Top>
         <Left>0.61333in</Left>
         <Height>0.5625in</Height>
@@ -294,7 +294,7 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="DataSet1">
+    <DataSet Name="DETALLE">
       <Query>
         <DataSourceName>LimoSystemsDataSet</DataSourceName>
         <CommandText>/* Local Query */</CommandText>

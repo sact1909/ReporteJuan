@@ -152,6 +152,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LimoSystemsDataSet.cs">
+      <DependentUpon>LimoSystemsDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="LimoSystemsDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

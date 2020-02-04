@@ -13,6 +13,13 @@ namespace ReporteJuan.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Index(int ID)
+        {
+            ViewBag.IDRequest = ID;
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
