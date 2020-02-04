@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LimoSystemsDataSet" targetNamespace="http://tempuri.org/LimoSystemsDataSet.xsd" xmlns:mstns="http://tempuri.org/LimoSystemsDataSet.xsd" xmlns="http://tempuri.org/LimoSystemsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="LimoSystemsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="LimoSystemsConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.LimoSystemsConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="REQUESTTableAdapter" GeneratorDataComponentClassName="REQUESTTableAdapter" Name="REQUEST" UserDataComponentName="REQUESTTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="LimoSystemsConnectionString (Web.config)" DbObjectName="LimoSystems.dbo.REQUEST" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CUSTOMER_NAME, CUSTOMER_LASTNAME, CUSTOMER_PHONE_NUMBER, REQUEST_DATE FROM dbo.REQUEST</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CUSTOMER_NAME" DataSetColumn="CUSTOMER_NAME" />
+              <Mapping SourceColumn="CUSTOMER_LASTNAME" DataSetColumn="CUSTOMER_LASTNAME" />
+              <Mapping SourceColumn="CUSTOMER_PHONE_NUMBER" DataSetColumn="CUSTOMER_PHONE_NUMBER" />
+              <Mapping SourceColumn="REQUEST_DATE" DataSetColumn="REQUEST_DATE" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LimoSystemsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="LimoSystemsDataSet" msprop:Generator_UserDSName="LimoSystemsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="REQUEST" msprop:Generator_TableClassName="REQUESTDataTable" msprop:Generator_TableVarName="tableREQUEST" msprop:Generator_TablePropName="REQUEST" msprop:Generator_RowDeletingName="REQUESTRowDeleting" msprop:Generator_RowChangingName="REQUESTRowChanging" msprop:Generator_RowEvHandlerName="REQUESTRowChangeEventHandler" msprop:Generator_RowDeletedName="REQUESTRowDeleted" msprop:Generator_UserTableName="REQUEST" msprop:Generator_RowChangedName="REQUESTRowChanged" msprop:Generator_RowEvArgName="REQUESTRowChangeEvent" msprop:Generator_RowClassName="REQUESTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUSTOMER_NAME" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_NAME" msprop:Generator_ColumnPropNameInRow="CUSTOMER_NAME" msprop:Generator_ColumnPropNameInTable="CUSTOMER_NAMEColumn" msprop:Generator_UserColumnName="CUSTOMER_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUSTOMER_LASTNAME" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_LASTNAME" msprop:Generator_ColumnPropNameInRow="CUSTOMER_LASTNAME" msprop:Generator_ColumnPropNameInTable="CUSTOMER_LASTNAMEColumn" msprop:Generator_UserColumnName="CUSTOMER_LASTNAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUSTOMER_PHONE_NUMBER" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_PHONE_NUMBER" msprop:Generator_ColumnPropNameInRow="CUSTOMER_PHONE_NUMBER" msprop:Generator_ColumnPropNameInTable="CUSTOMER_PHONE_NUMBERColumn" msprop:Generator_UserColumnName="CUSTOMER_PHONE_NUMBER">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REQUEST_DATE" msprop:Generator_ColumnVarNameInTable="columnREQUEST_DATE" msprop:Generator_ColumnPropNameInRow="REQUEST_DATE" msprop:Generator_ColumnPropNameInTable="REQUEST_DATEColumn" msprop:Generator_UserColumnName="REQUEST_DATE" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
