@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- releases/*
 
 pool:
   vmImage: 'windows-latest'
@@ -32,3 +33,9 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: CopyFilesOverSSH@0
+  inputs:
+    sshEndpoint: 'SSHAWS'
+    sourceFolder: '$(System.DefaultWorkingDirectory)'
+    contents: '**'
+    targetFolder: 'C:/TestPipeline'
