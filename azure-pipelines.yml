@@ -36,6 +36,6 @@ steps:
 - task: CopyFilesOverSSH@0
   inputs:
     sshEndpoint: 'SSHAWS'
-    sourceFolder: '$(System.DefaultWorkingDirectory)'
+    sourceFolder: '$(System.DefaultWorkingDirectory)/ReporteJuan/obj/Release/Package/PackageTmp'
     contents: '**'
     targetFolder: 'C:/TestPipeline'
